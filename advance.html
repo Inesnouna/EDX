@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+              #ins {
+                text-align: right;
+            }
+            .nav {
+                width: 100%;
+                margin: 0!important;
+                background-color: #f1f1f1;
+                height: 62px;
+            }
+            .navbar button {
+                margin-right: 22px;
+            }
+            .navbar a, button {
+                margin-top: 11px;
+            }
+          
+           
+        </style>
+        
+    </head>
+    <body>
+        <div class="bdy">
+            <div class="nav">
+                <div class="navbar">
+                    <img src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" title="Go to Google Home">
+                    <a href="index.html">Search</a>
+                    <a href="images.html">Images</a>
+                    <button>Sign in</button>
+                </div>
+            </div>
+            <div class="main">
+                <div id="advc">
+                    <div id="ad" >
+                        Advanced Search
+                    </div>
+                </div>                
+                <div id="find">
+                    Find pages with...
+                </div>
+                <div id="ins">
+                 To perform this operation in the search field
+                </div>                
+                <div class="searchadvc">
+                    <form action="https://google.com/search" class="myform">
+                        <label for="aotfw">all of the following words:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+     
+                        <input name="x" type="text" id="atw" autocomplete="off">
+                        <div class="abc">Type the important words: <div>tri-colour rat terrier</div></div>
+                        <br>
+                        <label for="tewp">this exact word or expression:</label>
+                        <input name="y" type="text" id="tewp" autocomplete="off">
+                        <div class="abc">Put exact words in quotes: <div>"rat terrier"</div></div>
+                        <br>
+                        <label for="aftw">any of these words:</label>
+                        <input name="z" type="text" id="aftw" autocomplete="off">
+                        <div class="abc">Enter OR between all the words to include: miniature OR standard </div>
+                        <br>
+                        <label for="nftw">none of the following words: </label>
+                        <input name="w" type="text" id="nftw" autocomplete="off">
+                        <div class="abc">Put a minus sign just before words that you don't want: <div>-rodent, -"Jack Russell"</div></div>
+                        <br>
+                        <div class="numr">
+                            <label for="aftw">numbers between :</label>
+                        <input  type="number"  autocomplete="off"> and <input  type="number"  autocomplete="off">
+                        <div class="abc"> Place two points between the numbers, and add a unit of measure: 10..35 kilos, 300..500 USD, 2010..2011</div>
+
+                        </div>
+                        
+                        <input type="submit" id="bluebtn" value="Advanced Search">
+                    </form>
+                </div>                
+            </div>
+            <div class="foot">
+              
+                <div>
+                    <a href="#" class="right">Help</a>
+                    <a href="#" class="right">Privacy</a>
+                    <a href="#" class="right">Terms</a>                  
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
