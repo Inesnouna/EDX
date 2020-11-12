@@ -1,8 +1,6 @@
 # Project 1 - Wiki
  Wikipedia-like online encyclopedia
 
-***SCREENCAST:*** https://youtu.be/eZqhbRnmKuQ
-
 **Python files:**
   * _manage.py_
     - main application to run server 
